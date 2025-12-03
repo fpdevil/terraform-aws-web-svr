@@ -5,3 +5,9 @@ The user data script installs a `apache` during `EC2` bootstrapping and creates 
 The web page rendered by browser should look something like below:
 
 ![Image Alt text](/images/server.png "Infra Details in browser")
+
+After running and creating the infrastructure, we can generate a dependency dot graph using the below terraform command:
+
+```bash
+$ terraform graph | dot -Tpng > graph.png
+```
