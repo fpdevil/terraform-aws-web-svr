@@ -1,0 +1,7 @@
+# EC2 instance creation with VPC using Terraform
+A simple set of terraform configurations to create a `EC2` instance under a Public subnet backend by a VPC and accessible publicly.
+The user data script installs a `apache` during `EC2` bootstrapping and creates a `html` file with the server details. Once the terraform configuration is completed, the apache http server can be accessed publicly over a browser.
+
+The web page rendered by browser should look something like below:
+
+![alt text](./images/server.png "Infra Details")
