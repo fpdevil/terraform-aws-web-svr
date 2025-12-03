@@ -4,4 +4,4 @@ The user data script installs a `apache` during `EC2` bootstrapping and creates 
 
 The web page rendered by browser should look something like below:
 
-![Image Alt text](/images/server.png "Infra Details in browser"))
+![Image Alt text](/images/server.png "Infra Details in browser")
